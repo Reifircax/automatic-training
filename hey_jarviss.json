@@ -2,7 +2,7 @@
   "type": "micro",
   "wake_word": "Hey Jarviss",
   "author": "Nicolas Henry",
-  "model": "Hey_Jarviss.tflite",
+  "model": "hey_jarviss.tflite",
   "trained_languages": ["fr"],
   "version": 1,
   "micro": {
