@@ -1,0 +1,15 @@
+{
+  "type": "micro",
+  "wake_word": "Hey Jarviss",
+  "author": "Nicolas Henry",
+  "model": "Hey_Jarviss.tflite",        // ton fichier tflite
+  "trained_languages": ["fr"],          // français
+  "version": 1,
+  "micro": {
+    "probability_cutoff": 0.5,          // seuil de détection
+    "feature_step_size": 10,            // correspond au training
+    "sliding_window_size": 5,           // idem
+    "tensor_arena_size": 21000,         // mémoire ESP32
+    "minimum_esphome_version": "2024.7.0"
+  }
+}
